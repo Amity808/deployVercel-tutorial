@@ -1,0 +1,19 @@
+{
+  "name": "deployvercel",
+  "version": "1.0.0",
+  "description": "how to deploy my backend(express) on vercel ",
+  "main": "index.js",
+  "author": "Amity808",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step required'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0"
+  }
+}
